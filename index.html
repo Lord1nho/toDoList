@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List - Luiz
+    </title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <section id="content">
+        <div class="title_bar">
+            <h2>To-Do List <img src="assets/img/icon.png"> </h2>
+        </div>
+        <div class="toDo_box">
+            <input type="text" id="input-box" placeholder="Digite aqui a tarefa">
+            <button onclick="addTarefa()">+ Adicionar</button>
+            <div id="toDo_list">
+                <ul id="list_tasks">
+                    
+                </ul>
+                <div class="action_buttons">
+                    <button onclick="refreshList()">Atualizar Lista</button>
+                    <button onclick="clearList()">Limpar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
